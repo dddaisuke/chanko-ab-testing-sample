@@ -1,6 +1,11 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.10'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git'
+gem 'haml'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

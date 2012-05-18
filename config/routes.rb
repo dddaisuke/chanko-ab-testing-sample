@@ -1,4 +1,13 @@
 ChankoAbTestingSample::Application.routes.draw do
+
+  get "samples/index"
+
+  match '/auth/:provider/callback' => 'sessions#create'
+  match "/logout" => "sessions#logout", :as => :logout
+
+  match '/login' => 'sessions#login'
+  match '/' => 'samples#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
