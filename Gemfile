@@ -5,6 +5,7 @@ gem 'haml'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

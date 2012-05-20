@@ -1,5 +1,8 @@
 .body
-  Main Contents
+  = invoke :ab_testing_unit, :show_account_provider
+
+  = invoke :ab_testing_unit, :modify_main_message do
+    Main Contents
 
 .footer
   = link_to 'Source code (github).', 'http://github.com/dddaisuke/chanko-ab-testing-sample'
